@@ -1,53 +1,53 @@
 package entities;
 
 public class Account {
-    private int numero;
-    private String nome;
-    private double saldo;
+    private int number;
+    private String holder;
+    private double balance;
 
-    public Account(int numero, String nome, double deposito){
-        this.numero=numero;
-        this.nome=nome;
-        this.saldo=deposito;
+    public Account(int number, String holder, double deposito){
+        this.number = number;
+        this.holder = holder;
+        this.balance =deposito;
     }
 
-    public Account(int numero, String nome){
-        this.numero=numero;
-        this.nome=nome;
-        this.saldo=0;
+    public Account(int number, String holder){
+        this.number = number;
+        this.holder = holder;
+        this.balance =0;
     }
 
-    public int getNumero(){
-        return this.numero;
+    public int getNumber(){
+        return this.number;
     }
 
-    public String getNome(){
-        return this.nome;
+    public String getHolder(){
+        return this.holder;
     }
 
-    public void setNome(String nome){
-        this.nome=nome;
+    public void setHolder(String holder){
+        this.holder = holder;
     }
 
-    public double getSaldo(){
-        return this.saldo;
+    public double getBalance(){
+        return this.balance;
     }
 
-    public void deposito(double deposito){
-        this.saldo+=deposito;
+    public void deposit(double amount){
+        this.balance +=amount;
     }
 
-    public void saca(double valor){
-        this.saldo -= (valor + 5);
+    public void withdraw(double amount){
+        this.balance -= (amount + 5);
     }
 
     public String toString(){
         return "Account "+
-                this.numero+
+                this.number +
                 ", Holder: "+
-                this.nome+
+                this.holder +
                 ", Balance: $ "+
-                String.format("%.2f", this.saldo);
+                String.format("%.2f", this.balance);
     }
 
 }

@@ -37,13 +37,13 @@ public class Main {
 
 
          System.out.print("Enter a deposit value:");
-         account.deposito(sc.nextInt());
+         account.deposit(sc.nextInt());
 
         System.out.println("Updated Account data: ");
         System.out.println(account.toString());
 
-        System.out.println("Enter a withdraw value:");
-        account.saca(sc.nextInt());
+        System.out.print("Enter a withdraw value:");
+        account.withdraw(sc.nextInt());
 
         System.out.println("Updated Account data: ");
         System.out.println(account.toString());
