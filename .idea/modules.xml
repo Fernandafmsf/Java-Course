@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Course.iml" filepath="$PROJECT_DIR$/Java-Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stock-Constructor/Stock-Constructor.iml" filepath="$PROJECT_DIR$/Stock-Constructor/Stock-Constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectorExercises/VectorExercises.iml" filepath="$PROJECT_DIR$/VectorExercises/VectorExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/VectorProgram/VectorProgram.iml" filepath="$PROJECT_DIR$/VectorProgram/VectorProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VectorProgram2/VectorProgram2.iml" filepath="$PROJECT_DIR$/VectorProgram2/VectorProgram2.iml" />
     </modules>
   </component>
 </project>
