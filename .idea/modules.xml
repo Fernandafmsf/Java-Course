@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
       <module fileurl="file://$PROJECT_DIR$/EmployeeList/EmployeeList.iml" filepath="$PROJECT_DIR$/EmployeeList/EmployeeList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FourNoobs-exercise/FourNoobs-exercise.iml" filepath="$PROJECT_DIR$/FourNoobs-exercise/FourNoobs-exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Course.iml" filepath="$PROJECT_DIR$/Java-Course.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lists/Lists.iml" filepath="$PROJECT_DIR$/Lists/Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matriz/Matriz.iml" filepath="$PROJECT_DIR$/Matriz/Matriz.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stock-Constructor/Stock-Constructor.iml" filepath="$PROJECT_DIR$/Stock-Constructor/Stock-Constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/VectorExercises/VectorExercises.iml" filepath="$PROJECT_DIR$/VectorExercises/VectorExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/VectorProgram/VectorProgram.iml" filepath="$PROJECT_DIR$/VectorProgram/VectorProgram.iml" />
