@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/VectorExercises/VectorExercises.iml" filepath="$PROJECT_DIR$/VectorExercises/VectorExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/VectorProgram/VectorProgram.iml" filepath="$PROJECT_DIR$/VectorProgram/VectorProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/VectorProgram2/VectorProgram2.iml" filepath="$PROJECT_DIR$/VectorProgram2/VectorProgram2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-hora/data-hora.iml" filepath="$PROJECT_DIR$/data-hora/data-hora.iml" />
     </modules>
   </component>
 </project>
