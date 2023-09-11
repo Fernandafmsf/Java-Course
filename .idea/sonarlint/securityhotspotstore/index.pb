@@ -17,3 +17,9 @@ T
 $Lists/src/application/FirstList.java,6\f\6f3e378c72a0e5f8c69a0f8e50383984fb624756
 R
 "Lists/src/application/Program.java,7\d\7d0c75057e8048579d149cb27b62e4fdb4192f11
+V
+&EmployeeList/src/application/Main.java,4\a\4a84788726dc170fab668cbbb221803e5e780767
+P
+ FourNoobs-exercise/src/Main.java,c\5\c577265ec3b444d0feb9a4c3a878b947c49ff794
+D
+Matriz/src/Main.java,4\9\495367a12a34becd550268d141b709fd5e9865aa
