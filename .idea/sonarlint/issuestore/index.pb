@@ -41,25 +41,5 @@ D
 data-hora/src/GIT.MD,9\d\9d4b0e7033dc42ae585d0583e74c1818551d8ff2
 O
 data-hora/src/Instanciacao.java,c\4\c42d42bb21cf05618b5510cff9d3fb4404d0d4de
-T
-$Enum/src/enumeracao/OrderStatus.java,f\d\fd7e3ceaa29fc7912219c572378e000a0b6e8f03
-L
-Enum/src/entities/Order.java,8\b\8b3e44765ed9d9dd3b352a887e85d6cf9904c418
-Q
-!Enum/src/application/Program.java,f\f\ffdb63aa6956b388de21ff228c0a7e2816964d89
-P
- ComposicaoExercise/src/Main.java,c\c\ccc1c9de04f157f8643d318a28063a800499329e
-L
-ComposicaoExercise/README.md,1\f\1f6374a1b463f581183e58858464d9e997812b98
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-X
-(VectorProgram2/src/application/Main.java,1\1\11cbe645cbb7c07c397b663915849dafd5eeb164
-b
-2ComposicaoExercise/src/enumeracao/WorkerLevel.java,b\6\b64ba867c78a6036cad64a0e7a4a2c5975539b36
-_
-/ComposicaoExercise/src/entities/Department.java,6\8\6817938943e13a26b1c158e67ef7d82c2a0d2a66
-a
-1ComposicaoExercise/src/entities/HourContract.java,6\8\689869232c4a57b936f9d3e77a6cab9e327d39e4
-[
-+ComposicaoExercise/src/entities/Worker.java,e\6\e6fc3bf31bbaacf1d8d3befeda206fa18b7fe2e5

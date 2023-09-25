@@ -3,6 +3,7 @@ package entities;
 import enumeracao.WorkerLevel;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class Worker {
@@ -12,6 +13,7 @@ public class Worker {
 
     //composicoes
     private Department department; //cada trabalhador so pode ter um departamento
+
     //cada item da lista vai ser um objeto hourContract
     private List<HourContract> contracts = new ArrayList<>(); //como há a possibilidade de ter mais de um contrato por trabalhador, cria se uma lista para comportar a quantiadade.
     // Tambem ja devemos efetuar a instanciacao da lista. E ela nao deve estar no construtor
@@ -65,5 +67,22 @@ public class Worker {
     }
     public void removeContract(HourContract contract){
         contracts.remove(contract);
+    }
+
+    public Double income(int year, int month){
+        double sum = baseSalary;
+        Calendar cal = Calendar.getInstance();
+        for(HourContract c : contracts){
+            cal.setTime(c.getDate());
+            int c_year = cal.get(Calendar.YEAR);
+            int c_month = cal.get(Calendar.MONTH);
+            if(year==c_year&& month==c_month){
+                sum+=c.totalValue();//metodo de hourContract
+
+
+
+            }
+        }
+        return sum;
     }
 }
