@@ -18,6 +18,7 @@ public class Worker {
     private List<HourContract> contracts = new ArrayList<>(); //como há a possibilidade de ter mais de um contrato por trabalhador, cria se uma lista para comportar a quantiadade.
     // Tambem ja devemos efetuar a instanciacao da lista. E ela nao deve estar no construtor
 
+
     public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
         this.level = level;
@@ -69,15 +70,16 @@ public class Worker {
         contracts.remove(contract);
     }
 
-    public Double income(int year, int month){
+    public double income(int year, int month){
         double sum = baseSalary;
         Calendar cal = Calendar.getInstance();
-        for(HourContract c : contracts){
-            cal.setTime(c.getDate());
+        //necessario percorrer o contrato para descobrir quais contratos sao referentes ao mes e ano passados como parametro
+        for(HourContract contract : contracts){
+            cal.setTime(contract.getDate());
             int c_year = cal.get(Calendar.YEAR);
-            int c_month = cal.get(Calendar.MONTH);
+            int c_month =1+ cal.get(Calendar.MONTH);
             if(year==c_year&& month==c_month){
-                sum+=c.totalValue();//metodo de hourContract
+                sum+=contract.totalValue();//metodo de hourContract
 
 
 
